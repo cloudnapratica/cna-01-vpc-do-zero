@@ -1,9 +1,9 @@
-# terraform {
-#   backend "remote" {
-#     organization = "SUA_ORGANIZACAO"
+terraform {
+  backend "remote" {
+    organization = "cloudnapratica"
 
-#     workspaces {
-#       name = "SEU_WORKSPACE"
-#     }
-#   }
-# }
+    workspaces {
+      name = "cna-01"
+    }
+  }
+}
