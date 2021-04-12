@@ -4,7 +4,7 @@ resource "aws_vpc" "this" {
   enable_dns_support   = true
 
   tags = {
-    Name = "terraform"
+    Name = "cna-01"
   }
 }
 
